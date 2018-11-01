@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41ACA711218B547F00F17DE5 /* common2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACA710218B547F00F17DE5 /* common2.framework */; };
+		41ACA712218B548D00F17DE5 /* common2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACA710218B547F00F17DE5 /* common2.framework */; };
+		41ACA713218B548D00F17DE5 /* common2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACA710218B547F00F17DE5 /* common2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D25C85DE218B2E0D00FF03BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */; };
 		D25C85E0218B2E0D00FF03BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DF218B2E0D00FF03BD /* ViewController.swift */; };
 		D25C85E3218B2E0D00FF03BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E1218B2E0D00FF03BD /* Main.storyboard */; };
 		D25C85E5218B2E0F00FF03BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E4218B2E0F00FF03BD /* Assets.xcassets */; };
 		D25C85E8218B2E0F00FF03BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E6218B2E0F00FF03BD /* LaunchScreen.storyboard */; };
-		D2B232D3218B43FA00058D82 /* common2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25C85F0218B2E9B00FF03BD /* common2.framework */; };
-		D2B232D4218B43FA00058D82 /* common2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D25C85F0218B2E9B00FF03BD /* common2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2B232D5218B43FA00058D82 /* Embed Frameworks */ = {
+		41ACA714218B548D00F17DE5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D2B232D4218B43FA00058D82 /* common2.framework in Embed Frameworks */,
+				41ACA713218B548D00F17DE5 /* common2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41ACA710218B547F00F17DE5 /* common2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common2.framework; path = "../kotlin-native-lab-day/common2/build/bin/ios/main/release/framework/common2.framework"; sourceTree = "<group>"; };
 		D25C85DA218B2E0D00FF03BD /* kotlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kotlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D25C85DF218B2E0D00FF03BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +40,6 @@
 		D25C85E4218B2E0F00FF03BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25C85E7218B2E0F00FF03BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25C85E9218B2E0F00FF03BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D25C85F0218B2E9B00FF03BD /* common2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common2.framework; path = ../../../native/common2/build/bin/ios/main/release/framework/common2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B232D3218B43FA00058D82 /* common2.framework in Frameworks */,
+				41ACA712218B548D00F17DE5 /* common2.framework in Frameworks */,
+				41ACA711218B547F00F17DE5 /* common2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 		D25C85EF218B2E9A00FF03BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D25C85F0218B2E9B00FF03BD /* common2.framework */,
+				41ACA710218B547F00F17DE5 /* common2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,7 +104,7 @@
 				D25C85D6218B2E0D00FF03BD /* Sources */,
 				D25C85D7218B2E0D00FF03BD /* Frameworks */,
 				D25C85D8218B2E0D00FF03BD /* Resources */,
-				D2B232D5218B43FA00058D82 /* Embed Frameworks */,
+				41ACA714218B548D00F17DE5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HRL6BQY7MY;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamie.kerr/native/common2/build/bin/ios/main/release/framework/**";
+				FRAMEWORK_SEARCH_PATHS = "/Users/chris.flint/FlintMakes/kotlin-native-lab-day/common2/build/bin/ios/main/release/framework/**";
 				INFOPLIST_FILE = kotlin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HRL6BQY7MY;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamie.kerr/native/common2/build/bin/ios/main/release/framework/**";
+				FRAMEWORK_SEARCH_PATHS = "/Users/chris.flint/FlintMakes/kotlin-native-lab-day/common2/build/bin/ios/main/release/framework/**";
 				INFOPLIST_FILE = kotlin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
