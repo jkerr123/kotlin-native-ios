@@ -7,10 +7,22 @@
 //
 
 import UIKit
-import common2
+import spock
 
 class ViewController: UIViewController,
-    UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+UINavigationControllerDelegate, UIImagePickerControllerDelegate, SpockListener{
+    func onProductsMatched() {
+        print("Done stuff")
+    }
+    
+    func onNoProductsMatched() {
+        
+    }
+    
+    func onError() {
+        
+    }
+    
 
     @IBOutlet weak var imageView: UIImageView!
 
@@ -35,11 +47,17 @@ class ViewController: UIViewController,
         let pngImage = takenImage.pngData()
         let base64String = pngImage?.base64EncodedString()
 
-        // TODO pass image to kotlin native that does stuff with iut
+        let spock = Spock.init(listener: self)
+        let res = spock.getResultsFromGoogle(base64Image: base64String ?? "lol")
+        
+        let _ = "lool"
+        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
 //        let filter = Filter()
 //        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 21))
