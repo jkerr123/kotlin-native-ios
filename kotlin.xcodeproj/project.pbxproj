@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2388EC821B07C21001855CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2388EC621B07C21001855CD /* Main.storyboard */; };
 		D25C85DE218B2E0D00FF03BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */; };
-		D25C85E0218B2E0D00FF03BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DF218B2E0D00FF03BD /* ViewController.swift */; };
-		D25C85E3218B2E0D00FF03BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E1218B2E0D00FF03BD /* Main.storyboard */; };
+		D25C85E0218B2E0D00FF03BD /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DF218B2E0D00FF03BD /* TakePhotoViewController.swift */; };
 		D25C85E5218B2E0F00FF03BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E4218B2E0F00FF03BD /* Assets.xcassets */; };
 		D25C85E8218B2E0F00FF03BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E6218B2E0F00FF03BD /* LaunchScreen.storyboard */; };
-		D2E1E38C21B56536001C272A /* spock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E38621B545FA001C272A /* spock.framework */; };
-		D2E1E38D21B565D5001C272A /* spock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E38621B545FA001C272A /* spock.framework */; };
-		D2E1E38E21B565D5001C272A /* spock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E38621B545FA001C272A /* spock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D2E1E3D621B97C7F001C272A /* spock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E3D521B97C7F001C272A /* spock.framework */; };
+		D2E1E3D721B97C7F001C272A /* spock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E3D521B97C7F001C272A /* spock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D2E1E3E421B97DA2001C272A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E3E221B97DA2001C272A /* MenuViewController.swift */; };
+		D2E1E3E621B97EBB001C272A /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E3E521B97EBB001C272A /* Menu.storyboard */; };
+		D2E1E3E821B98AD9001C272A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E1218B2E0D00FF03BD /* Main.storyboard */; };
+		D2E1E3EF21B99D09001C272A /* SpockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E3EE21B99D09001C272A /* SpockManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2E1E38F21B565D5001C272A /* Embed Frameworks */ = {
+		D2E1E3D821B97C7F001C272A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D2E1E38E21B565D5001C272A /* spock.framework in Embed Frameworks */,
+				D2E1E3D721B97C7F001C272A /* spock.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,12 +37,16 @@
 		D2388EC721B07C21001855CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = kotlin/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D25C85DA218B2E0D00FF03BD /* kotlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kotlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D25C85DF218B2E0D00FF03BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D25C85DF218B2E0D00FF03BD /* TakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
 		D25C85E2218B2E0D00FF03BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D25C85E4218B2E0F00FF03BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25C85E7218B2E0F00FF03BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25C85E9218B2E0F00FF03BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E1E38621B545FA001C272A /* spock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = spock.framework; path = ../../Kotlin/spock/build/bin/ios/main/release/framework/spock.framework; sourceTree = "<group>"; };
+		D2E1E3D521B97C7F001C272A /* spock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = spock.framework; path = ../Documents/Kotlin/spock/build/bin/ios/main/release/framework/spock.framework; sourceTree = "<group>"; };
+		D2E1E3E221B97DA2001C272A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../../Documents/iOS projects/kotlin/kotlin/Menu/MenuViewController.swift"; sourceTree = "<group>"; };
+		D2E1E3E521B97EBB001C272A /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		D2E1E3EE21B99D09001C272A /* SpockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpockManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1E38C21B56536001C272A /* spock.framework in Frameworks */,
-				D2E1E38D21B565D5001C272A /* spock.framework in Frameworks */,
+				D2E1E3D621B97C7F001C272A /* spock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +64,7 @@
 		D25C85D1218B2E0D00FF03BD = {
 			isa = PBXGroup;
 			children = (
+				D2E1E3D521B97C7F001C272A /* spock.framework */,
 				D2388EC621B07C21001855CD /* Main.storyboard */,
 				D25C85DC218B2E0D00FF03BD /* kotlin */,
 				D25C85DB218B2E0D00FF03BD /* Products */,
@@ -78,9 +83,11 @@
 		D25C85DC218B2E0D00FF03BD /* kotlin */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E3F721B9A777001C272A /* MainView */,
+				D2E1E3E921B9989E001C272A /* Spock */,
+				D2E1E3E721B988C9001C272A /* Take Photo */,
+				D2E1E3E021B97D85001C272A /* Menu */,
 				D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */,
-				D25C85DF218B2E0D00FF03BD /* ViewController.swift */,
-				D25C85E1218B2E0D00FF03BD /* Main.storyboard */,
 				D25C85E4218B2E0F00FF03BD /* Assets.xcassets */,
 				D25C85E6218B2E0F00FF03BD /* LaunchScreen.storyboard */,
 				D25C85E9218B2E0F00FF03BD /* Info.plist */,
@@ -96,6 +103,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2E1E3E021B97D85001C272A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E3E521B97EBB001C272A /* Menu.storyboard */,
+				D2E1E3E221B97DA2001C272A /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D2E1E3E721B988C9001C272A /* Take Photo */ = {
+			isa = PBXGroup;
+			children = (
+				D25C85E1218B2E0D00FF03BD /* Main.storyboard */,
+				D25C85DF218B2E0D00FF03BD /* TakePhotoViewController.swift */,
+			);
+			path = "Take Photo";
+			sourceTree = "<group>";
+		};
+		D2E1E3E921B9989E001C272A /* Spock */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E3EE21B99D09001C272A /* SpockManager.swift */,
+			);
+			path = Spock;
+			sourceTree = "<group>";
+		};
+		D2E1E3F721B9A777001C272A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,7 +147,7 @@
 				D25C85D6218B2E0D00FF03BD /* Sources */,
 				D25C85D7218B2E0D00FF03BD /* Frameworks */,
 				D25C85D8218B2E0D00FF03BD /* Resources */,
-				D2E1E38F21B565D5001C272A /* Embed Frameworks */,
+				D2E1E3D821B97C7F001C272A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,10 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E1E3E821B98AD9001C272A /* Main.storyboard in Resources */,
 				D25C85E8218B2E0F00FF03BD /* LaunchScreen.storyboard in Resources */,
 				D25C85E5218B2E0F00FF03BD /* Assets.xcassets in Resources */,
-				D25C85E3218B2E0D00FF03BD /* Main.storyboard in Resources */,
-				D2388EC821B07C21001855CD /* Main.storyboard in Resources */,
+				D2E1E3E621B97EBB001C272A /* Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25C85E0218B2E0D00FF03BD /* ViewController.swift in Sources */,
+				D2E1E3EF21B99D09001C272A /* SpockManager.swift in Sources */,
+				D25C85E0218B2E0D00FF03BD /* TakePhotoViewController.swift in Sources */,
+				D2E1E3E421B97DA2001C272A /* MenuViewController.swift in Sources */,
 				D25C85DE218B2E0D00FF03BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

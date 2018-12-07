@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import spock
+
+let spockManager = SpockManager()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.makeKeyAndVisible()
+//        let menuViewController = MenuViewController.fromNib()
+//        self.window?.rootViewController = menuViewController
+//        return true
+        spockManager.getSpock()
         return true
     }
 

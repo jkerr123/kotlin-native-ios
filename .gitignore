@@ -2,3 +2,6 @@
 \.idea/
 
 kotlin\.xcodeproj/
+
+node_modules/
+Pods/
