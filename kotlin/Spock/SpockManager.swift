@@ -28,7 +28,8 @@ class SpockManager:NSObject, SpockListener{
     }
     
     func onProductsLoaded() {
-        isInitialised = true
+//        let isInitialised = false
+        
     }
     
     func onError() {

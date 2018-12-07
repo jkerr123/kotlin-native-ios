@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+@objc(Test)
+class Test: NSObject {
+    
+    @objc
+    func myMethod() {
+        print("Called swift")
+    }
+    
+}

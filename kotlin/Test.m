@@ -7,5 +7,7 @@
 //
 
 #import "React/RCTBridgeModule.h"
-@interface RCT_EXTERN_MODULE(Test, NSObject)
+
+@interface RCT_EXTERN_REMAP_MODULE(SomeSwift, Test, NSObject)
+RCT_EXTERN_METHOD(myMethod)
 @end

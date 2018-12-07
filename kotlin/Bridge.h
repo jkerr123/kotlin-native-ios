@@ -6,8 +6,5 @@
 //  Copyright © 2018 Jamie Kerr. All rights reserved.
 //
 
-#ifndef Bridge_h
-#define Bridge_h
+#import "React/RCTBridgeModule.h"
 
-
-#endif /* Bridge_h */

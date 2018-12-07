@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D8C9D0C630F6DBF363DF27 /* Pods_kotlin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F0D0404CEA3D60E81BA390 /* Pods_kotlin.framework */; };
+		D21F77BD21BA173B00596FBF /* spock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F77BC21BA173B00596FBF /* spock.framework */; };
+		D21F77BE21BA173B00596FBF /* spock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D21F77BC21BA173B00596FBF /* spock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D21F77C121BA390000596FBF /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21F77C021BA390000596FBF /* Test.swift */; };
+		D21F77C421BA39AC00596FBF /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F77C321BA39AC00596FBF /* Test.m */; };
 		D25C85DE218B2E0D00FF03BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */; };
 		D25C85E0218B2E0D00FF03BD /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C85DF218B2E0D00FF03BD /* TakePhotoViewController.swift */; };
 		D25C85E5218B2E0F00FF03BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E4218B2E0F00FF03BD /* Assets.xcassets */; };
 		D25C85E8218B2E0F00FF03BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E6218B2E0F00FF03BD /* LaunchScreen.storyboard */; };
-		D2E1E3D621B97C7F001C272A /* spock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E3D521B97C7F001C272A /* spock.framework */; };
-		D2E1E3D721B97C7F001C272A /* spock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2E1E3D521B97C7F001C272A /* spock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D2E1E3E421B97DA2001C272A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E3E221B97DA2001C272A /* MenuViewController.swift */; };
 		D2E1E3E621B97EBB001C272A /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E3E521B97EBB001C272A /* Menu.storyboard */; };
 		D2E1E3E821B98AD9001C272A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25C85E1218B2E0D00FF03BD /* Main.storyboard */; };
 		D2E1E3EF21B99D09001C272A /* SpockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E3EE21B99D09001C272A /* SpockManager.swift */; };
+		F0B92850C1E5A11EAE8ED299 /* index.js in Sources */ = {isa = PBXBuildFile; fileRef = F0B924EF312520A016E0061A /* index.js */; };
+		F0B92E22C3AEBEA8A711152C /* header.js in Sources */ = {isa = PBXBuildFile; fileRef = F0B92F397ADBCB94D1F01D22 /* header.js */; };
+		F0B92F5CB85D9817C5A4CC8C /* list-button.js in Sources */ = {isa = PBXBuildFile; fileRef = F0B9219A564C71631F4CA9F0 /* list-button.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2E1E3D821B97C7F001C272A /* Embed Frameworks */ = {
+		D21F77BF21BA173B00596FBF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D2E1E3D721B97C7F001C272A /* spock.framework in Embed Frameworks */,
+				D21F77BE21BA173B00596FBF /* spock.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +40,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B65B483DC556D2D2404EBDED /* Pods-kotlin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kotlin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kotlin/Pods-kotlin.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F0D0404CEA3D60E81BA390 /* Pods_kotlin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kotlin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21F77BC21BA173B00596FBF /* spock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = spock.framework; path = ../Documents/Kotlin/spock/build/bin/ios/main/release/framework/spock.framework; sourceTree = "<group>"; };
+		D21F77C021BA390000596FBF /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D21F77C221BA392400596FBF /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		D21F77C321BA39AC00596FBF /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		D2388EC721B07C21001855CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = kotlin/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D25C85DA218B2E0D00FF03BD /* kotlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kotlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25C85DD218B2E0D00FF03BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +54,13 @@
 		D25C85E4218B2E0F00FF03BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25C85E7218B2E0F00FF03BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25C85E9218B2E0F00FF03BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E1E38621B545FA001C272A /* spock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = spock.framework; path = ../../Kotlin/spock/build/bin/ios/main/release/framework/spock.framework; sourceTree = "<group>"; };
-		D2E1E3D521B97C7F001C272A /* spock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = spock.framework; path = ../Documents/Kotlin/spock/build/bin/ios/main/release/framework/spock.framework; sourceTree = "<group>"; };
 		D2E1E3E221B97DA2001C272A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../../Documents/iOS projects/kotlin/kotlin/Menu/MenuViewController.swift"; sourceTree = "<group>"; };
 		D2E1E3E521B97EBB001C272A /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		D2E1E3EE21B99D09001C272A /* SpockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpockManager.swift; sourceTree = "<group>"; };
+		E05C42A6E9E3D26C6A8C728E /* Pods-kotlin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kotlin.release.xcconfig"; path = "Pods/Target Support Files/Pods-kotlin/Pods-kotlin.release.xcconfig"; sourceTree = "<group>"; };
+		F0B9219A564C71631F4CA9F0 /* list-button.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "list-button.js"; sourceTree = SOURCE_ROOT; };
+		F0B924EF312520A016E0061A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		F0B92F397ADBCB94D1F01D22 /* header.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = header.js; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,21 +68,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1E3D621B97C7F001C272A /* spock.framework in Frameworks */,
+				D21F77BD21BA173B00596FBF /* spock.framework in Frameworks */,
+				02D8C9D0C630F6DBF363DF27 /* Pods_kotlin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D0ED0054A39183E751A47D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65B483DC556D2D2404EBDED /* Pods-kotlin.debug.xcconfig */,
+				E05C42A6E9E3D26C6A8C728E /* Pods-kotlin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8F55D4F8F9FCCF4A65504B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0D0404CEA3D60E81BA390 /* Pods_kotlin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D25C85D1218B2E0D00FF03BD = {
 			isa = PBXGroup;
 			children = (
-				D2E1E3D521B97C7F001C272A /* spock.framework */,
+				D21F77BC21BA173B00596FBF /* spock.framework */,
 				D2388EC621B07C21001855CD /* Main.storyboard */,
 				D25C85DC218B2E0D00FF03BD /* kotlin */,
 				D25C85DB218B2E0D00FF03BD /* Products */,
-				D25C85EF218B2E9A00FF03BD /* Frameworks */,
+				27D0ED0054A39183E751A47D /* Pods */,
+				C8F55D4F8F9FCCF4A65504B1 /* Frameworks */,
+				F0B924EF312520A016E0061A /* index.js */,
+				F0B92100378380916E0540CA /* components */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +118,7 @@
 		D25C85DC218B2E0D00FF03BD /* kotlin */ = {
 			isa = PBXGroup;
 			children = (
+				D21F77C321BA39AC00596FBF /* Test.m */,
 				D2E1E3F721B9A777001C272A /* MainView */,
 				D2E1E3E921B9989E001C272A /* Spock */,
 				D2E1E3E721B988C9001C272A /* Take Photo */,
@@ -91,16 +127,10 @@
 				D25C85E4218B2E0F00FF03BD /* Assets.xcassets */,
 				D25C85E6218B2E0F00FF03BD /* LaunchScreen.storyboard */,
 				D25C85E9218B2E0F00FF03BD /* Info.plist */,
+				D21F77C021BA390000596FBF /* Test.swift */,
+				D21F77C221BA392400596FBF /* Bridge.h */,
 			);
 			path = kotlin;
-			sourceTree = "<group>";
-		};
-		D25C85EF218B2E9A00FF03BD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D2E1E38621B545FA001C272A /* spock.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D2E1E3E021B97D85001C272A /* Menu */ = {
@@ -136,6 +166,15 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		F0B92100378380916E0540CA /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F0B92F397ADBCB94D1F01D22 /* header.js */,
+				F0B9219A564C71631F4CA9F0 /* list-button.js */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,11 +182,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D25C85EC218B2E0F00FF03BD /* Build configuration list for PBXNativeTarget "kotlin" */;
 			buildPhases = (
+				4A14D1E0BBE4EF033658FC1A /* [CP] Check Pods Manifest.lock */,
 				D25C85F2218B2F8500FF03BD /* ShellScript */,
 				D25C85D6218B2E0D00FF03BD /* Sources */,
 				D25C85D7218B2E0D00FF03BD /* Frameworks */,
 				D25C85D8218B2E0D00FF03BD /* Resources */,
-				D2E1E3D821B97C7F001C272A /* Embed Frameworks */,
+				D21F77BF21BA173B00596FBF /* Embed Frameworks */,
+				58D7AAC5FF92AC0BAD8F38F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +247,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A14D1E0BBE4EF033658FC1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kotlin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D7AAC5FF92AC0BAD8F38F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kotlin/Pods-kotlin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kotlin/Pods-kotlin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D25C85F2218B2F8500FF03BD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,7 +326,12 @@
 				D2E1E3EF21B99D09001C272A /* SpockManager.swift in Sources */,
 				D25C85E0218B2E0D00FF03BD /* TakePhotoViewController.swift in Sources */,
 				D2E1E3E421B97DA2001C272A /* MenuViewController.swift in Sources */,
+				D21F77C421BA39AC00596FBF /* Test.m in Sources */,
 				D25C85DE218B2E0D00FF03BD /* AppDelegate.swift in Sources */,
+				F0B92850C1E5A11EAE8ED299 /* index.js in Sources */,
+				D21F77C121BA390000596FBF /* Test.swift in Sources */,
+				F0B92E22C3AEBEA8A711152C /* header.js in Sources */,
+				F0B92F5CB85D9817C5A4CC8C /* list-button.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,22 +483,28 @@
 		};
 		D25C85ED218B2E0F00FF03BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65B483DC556D2D2404EBDED /* Pods-kotlin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HRL6BQY7MY;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamie.kerr/Documents/Kotlin/spock/build/bin/ios/main/release/framework/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/jamie.kerr/Documents/Kotlin/spock/build/bin/ios/main/release/framework/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = kotlin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamiekerr.kotlin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = kotlin/Bridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,15 +512,19 @@
 		};
 		D25C85EE218B2E0F00FF03BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05C42A6E9E3D26C6A8C728E /* Pods-kotlin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HRL6BQY7MY;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "/Users/jamie.kerr/Documents/Kotlin/spock/build/bin/ios/main/release/framework/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/jamie.kerr/Documents/Kotlin/spock/build/bin/ios/main/release/framework/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = kotlin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamiekerr.kotlin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = kotlin/Bridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
